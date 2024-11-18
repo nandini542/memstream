@@ -15,7 +15,7 @@ from fluent import sender
 import threading
 from werkzeug.serving import make_server
 
-# Custom exception for graceful shutdown
+
 class ServiceExit(Exception):
     pass
 
